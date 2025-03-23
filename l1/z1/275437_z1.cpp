@@ -2,23 +2,23 @@
 
 using namespace std;
 
-int n, dlugosc;
+int n, dlugosc=1;
 
 int main()
 {
     cin >> n;
-    cout << n << " ";
+    cout << n;
     while(n!=1)
         if(n%2==0)
         {
             n=n/2;
-            cout << n <<" ";
+            cout << " " << n;
             ++dlugosc;
         }
         else
         {
             n=3*n+1;
-            cout << n <<"  ";
+            cout << " " << n;
             ++dlugosc;
         }
     
