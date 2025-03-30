@@ -7,7 +7,7 @@ int main()
     int szukana, dlugosc;
     cin >> szukana;
     cin >> dlugosc;
-    int* tablica=new int[dlugosc];
+    int tablica[dlugosc];
     for(int i=0; i<dlugosc; ++i)
     {
         cin >> tablica[i];
