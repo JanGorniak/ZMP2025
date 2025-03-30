@@ -15,7 +15,7 @@ unsigned long long fib(int n)
         for(int k=2; k<n; ++k)
     {
         temp=f2;
-        f2=f2+f1;
+        f2+=f1;
         f1=temp;
     }
     return f2;
